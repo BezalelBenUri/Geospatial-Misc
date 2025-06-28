@@ -11,8 +11,7 @@ This is a simple Python script that converts TIFF raster files to Idrisi RST for
 - GDAL library (Python bindings)
 
 - Run the script with the following command:
-
-	python Tiff2Rst.py input_tiff_file.tif output_rst_file.rst
+	- python Tiff2Rst.py input_tiff_file.tif output_rst_file.rst
 
 
 # tiff_rst: TIFF to Idrisi RST and RST to TIFF Converter
@@ -24,13 +23,11 @@ This is a simple Python script that converts TIFF raster files to Idrisi RST for
 - Python 3.x
 - GDAL library (Python bindings)
 
-- Run the script with the following command:
-for conversion of tif to rst
-	python tiff_rst.py input_tiff_file.tif output_rst_file.rst
-
-	or 
-for conversion of rst to tif
-	python tiff_rst.py input_tiff_file.tif output_rst_file.rst
+- Run the script with the following command
+   - for conversion of rst to tif
+   	- python tiff_rst.py input_tiff_file.tif output_rst_file.rst
+   - conversion of tif to rst
+   	- python tiff_rst.py input_tiff_file.tif output_rst_file.rst
 
 # road_cleaner: Geospatial Data Cleanup Script
 This is a Python script that performs an "AutoCAD-style" cleanup on GeoJSON files. It's designed to remove duplicate geometries, explode complex polygons and linestrings into individual segments, 
@@ -39,4 +36,4 @@ and filter out short, potentially noisy segments.
 - Geopandas
 - Shapely
 - Run the script with the following command:
-    	road_cleaner.py
+    	python road_cleaner.py
