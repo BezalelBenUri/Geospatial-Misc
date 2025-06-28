@@ -1,4 +1,4 @@
-"This repo is for little geospatial, works analysis etc" 
+"This repository is for modular geospatial analysis etc" 
 
 
 # Tiff2Rst: TIFF to Idrisi RST Converter
@@ -31,3 +31,12 @@ for conversion of tif to rst
 	or 
 for conversion of rst to tif
 	python tiff_rst.py input_tiff_file.tif output_rst_file.rst
+
+# road_cleaner: Geospatial Data Cleanup Script
+This is a Python script that performs an "AutoCAD-style" cleanup on GeoJSON files. It's designed to remove duplicate geometries, explode complex polygons and linestrings into individual segments, 
+and filter out short, potentially noisy segments.
+- Python 3.x
+- Geopandas
+- Shapely
+- Run the script with the following command:
+    	road_cleaner.py
