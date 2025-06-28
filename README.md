@@ -36,4 +36,4 @@ and filter out short, potentially noisy segments.
 - Geopandas
 - Shapely
 - Run the script with the following command:
-    	python road_cleaner.py
+	- python road_cleaner.py
