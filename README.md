@@ -37,3 +37,14 @@ and filter out short, potentially noisy segments.
 - Shapely
 - Run the script with the following command:
 	- python road_cleaner.py
+ 
+
+# geojson_to_dxf: Geospatial Data Cleanup Script
+Python scripts that converts all GeoJSON (.geojson) files in the current directory into DXF (.dxf) format
+using the ezdxf library. It supports common geometry types such as LineString, Polygon, MultiPolygon,
+and Point.
+- Python 3.x
+- ezdxf
+- Run the script with the following command:
+	- python geojson_to_dxf.py
+
