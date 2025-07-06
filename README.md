@@ -48,3 +48,18 @@ and Point.
 - Run the script with the following command:
 	- python geojson_to_dxf.py
 
+# calculate_area: Geospatial Data Cleanup Script
+calculate_area.py
+
+This script processes all shapefiles (.shp) in the current directory.
+For each shapefile, it:
+- Reprojects to UTM Zone 31N (EPSG:32631) if not already in that CRS
+- Calculates area of each polygon in hectares
+- Saves a new shapefile with an added "area_ha" column
+- Displays a summary report for each shapefile
+
+Usage:
+    Place this script in the same folder as your shapefiles and run:
+    $ python calculate_area.py
+
+
